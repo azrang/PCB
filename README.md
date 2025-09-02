@@ -5,7 +5,7 @@ These are all the PCBS I've helped designed or designed so far. Included are:
 
 ~ @ my first full time job ~  
 *SLIGHT flex, this was all designed, assembled, and working in one month. I was solo Electronics Engineer.*
-1) Node Board: utilizes ESP32-S3 WROOM to monitor the machine using CANBus between each node and to control the various hat boards.
+1) Node Board: A 4-layer board which utilizes ESP32-S3 WROOM to monitor the machine; uses CANBus between each node board for communication; controls various hat boards by attaching to the GPIOs on the bottom.
 2) 12V Hat Board: controls whether 12V is applied to high current loads using a high side switch.
 3) 120VAC Hat Board: controls whether 120VAC is applied using triacs, optocoupler triac drivers, and a snubber circuit, for inductive loads.
 4) 5V sensor Hat Board: Reads sensor data and applies 5V power through a buck circuit. 
